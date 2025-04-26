@@ -15,7 +15,7 @@ Aplikasi ini memberikan informasi mengenai jenis bahan pangan serta kandungan vi
 with st.sidebar:
     st.header("About")
     options = ["Bahan Pangan", "Vitamin", "Manfaat", "Kekurangan"]
-    selection = st.pills("Tentang", options, selection_mode="multi")
+    selection = st.pills(options, selection_mode="multi")
     st.markdown(f"Your selected options: {selection}.")
 
 st.markdown("---")
