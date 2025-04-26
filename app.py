@@ -1,14 +1,14 @@
 import streamlit as st
 import math
 
-st.set_page_config(page_title="Pengenalan Bahan Pangan dan Vitamin Yang Terkandung", layout="centered")
+st.set_page_config(page_title="Buah dan Vitamin Didalam-nya", layout="centered")
 
 # Title
-st.title("🍎Bahan Pangan dan Vitamin Yang Terkandung🍎")
+st.title("🍎Buah dan Vitamin Didalam-nya🍎")
 
 # Description
 st.write("""
-Aplikasi ini memberikan informasi mengenai jenis bahan pangan serta kandungan vitamin didalam-nya serta manfaat-nya.
+Aplikasi ini memberikan informasi mengenai buah dan kandungan vitamin didalam-nya serta manfaat vitamin yang terkandung.
 """)
 
 # Sidebar for input
