@@ -14,7 +14,7 @@ Aplikasi ini memberikan informasi mengenai buah dan kandungan vitamin didalam-ny
 # Sidebar for input
 with st.sidebar:
     st.header("About")
-    options = ["Bahan Pangan", "Vitamin", "Manfaat", "Kekurangan"]
+    options = ["Buah", "Vitamin", "Manfaat", "Kekurangan"]
     selection = st.pills('ingin tau tentang?', options, selection_mode="multi")
     st.markdown(f"Your selected options: {selection}.")
 
