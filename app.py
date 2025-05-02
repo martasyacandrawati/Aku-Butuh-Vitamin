@@ -14,13 +14,8 @@ Aplikasi ini memberikan informasi mengenai buah dan kandungan vitamin didalam-ny
 # Sidebar for input
 with st.sidebar:
     st.header("About")
-    your-repository/
-├── pages/
-│   ├── page_1.py
-│   └── page_2.py
-└── your_app.py
     options = ["Buah", "Vitamin", "Manfaat", "Kekurangan"]
-    selection = st.page_link('ingin tau tentang?', options, selection_mode="multi")
+    selection = st.multiselect("Ingin tahu tentang apa?", options)
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
