@@ -12,10 +12,20 @@ Aplikasi ini memberikan informasi mengenai buah dan kandungan vitamin didalam-ny
 """)
 
 # Sidebar for input
-with st.sidebar:
-    st.header("About")
-    options = ["Buah", "Vitamin", "Manfaat", "Kekurangan"]
-    selection = st.multiselect("Ingin tahu tentang apa?", options)
+st.header("Menu")
+    selection = st.radio("About", ["Kenali Vitamin", "Manfaat Vitamin", "Fungsi Vitamin", "Kekurangan", "Fakta Menarik"])
+
+# Konten berdasarkan pilihan
+if selection == "Kenali Vitamin":
+    st.write("Ini konten untuk Kenali Macam-macam Vitamin.")
+elif selection == "Manfaat Vitamin":
+    st.write("Ini konten untuk Mengetahui Manfaat Vitamin.")
+elif selection == "Fungsi Vitamin":
+    st.write("Ini konten Mengetahui Fungsi Vitamin.")
+elif selection == "Kekurangan":
+    st.write("Ini konten untuk Mengetahui Kekurangan.")
+elif selection == "Fakta Menarik":
+    st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
