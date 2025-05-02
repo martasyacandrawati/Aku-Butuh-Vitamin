@@ -28,5 +28,16 @@ elif selection == "Kekurangan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 
+background_image = """
+<style>
+body {
+    background-image: url("https://pin.it/3ZOpz0lxt");
+    background-size: cover;
+}
+</style>
+"""
+
+st.markdown(background_image, unsafe_allow_html=True)
+
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
