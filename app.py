@@ -31,7 +31,7 @@ elif selection == "Fakta Menarik":
 background_image = """
 <style>
 body {
-    background-image: url("https://pin.it/3ZOpz0lxt");
+    background-image: url("file:///C:/Users/marta/Downloads/rhfcbdst%20j,jb.jpeg");
     background-size: cover;
 }
 </style>
