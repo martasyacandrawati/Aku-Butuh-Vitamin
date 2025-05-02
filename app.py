@@ -12,8 +12,9 @@ Aplikasi ini memberikan informasi mengenai buah dan kandungan vitamin didalam-ny
 """)
 
 # Sidebar for input
-st.header("Menu")
-    selection = st.radio("About", ["Kenali Vitamin", "Manfaat Vitamin", "Fungsi Vitamin", "Kekurangan", "Fakta Menarik"])
+with st.sidebar:
+    st.header("Menu")
+    selection = st.radio("Ingin tahu tentang apa?", ["Kenali Vitamin", "Manfaat Vitamin", "Fungsi Vitamin", "Kekurangan", "Fakta Menarik"])
 
 # Konten berdasarkan pilihan
 if selection == "Kenali Vitamin":
