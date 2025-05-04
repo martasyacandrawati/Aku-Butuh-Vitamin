@@ -4,7 +4,7 @@ import math
 st.set_page_config(page_title="Buah dan Vitamin Didalam-nya", layout="centered")
 
 # Title
-st.title("🍎Buah dan Vitamin Didalam-nya")
+st.title("Buah dan Vitamin Didalam-nya")
 
 # Description
 st.write("""
