@@ -148,7 +148,7 @@ page_bg_style = """
 <style>
 /* Background Utama */
 .stApp {
-    background-image: url("https://i.pinimg.com/736x/d1/78/cb/d178cbbae6c9f557b3f408b246ab2473.jpg");
+    background-image: url("https://www.freepik.com/free-photo/top-view-sweet-candy_10341723.htm#fromView=search&page=2&position=36&uuid=869a1f72-6a5f-4dd6-97e6-e6dc73576937&query=medicine+pink");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
