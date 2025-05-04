@@ -153,6 +153,10 @@ css_sidebar = """
 """
 
 st.sidebar.markdown(css_sidebar, unsafe_allow_html=True)
+st.sidebar.title("Sidebar Test")
+st.sidebar.write("Kalau ini pink keunguan, berarti berhasil!")
+
+st.write("Halo dari halaman utama!")
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
