@@ -144,5 +144,24 @@ elif selection == "Kekurangan dan Kelebihan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 
+page_bg_style = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #d4fc79, #96e6a1); /* hijau daun ke kuning pastel */
+    background-size: cover;
+}
+
+[data-testid="stHeader"] {
+    background: rgba(255, 255, 255, 0.0);
+}
+
+[data-testid="stSidebar"] {
+    background-color: #ffffffcc;
+}
+
+</style>
+"""
+st.markdown(page_bg_style, unsafe_allow_html=True)
+
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
