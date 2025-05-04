@@ -152,6 +152,8 @@ page_bg_style = """
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.3); /* warna putih semi-transparan */
+    background-blend-mode: overlay; /* blend warna + gambar */
 }
 
 /* Warna Teks */
