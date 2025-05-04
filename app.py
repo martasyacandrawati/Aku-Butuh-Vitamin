@@ -144,11 +144,9 @@ elif selection == "Kekurangan dan Kelebihan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 
-import streamlit as st
-
+# Tambahkan background ke halaman utama
 page_bg_style = """
 <style>
-/* Background gambar utama */
 [data-testid="stAppViewContainer"] > div:first-child {
     background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg") !important;
     background-size: cover !important;
@@ -156,27 +154,12 @@ page_bg_style = """
     background-repeat: no-repeat !important;
 }
 
-/* Warna teks mahogany */
+/* Teks dan tombol */
 html, body, [class^="st-"], [class*=" st-"] {
     color: #5C2E1F !important;
     font-family: "Arial", sans-serif;
 }
-/* Judul */
-h1, h2, h3 {
-    color: #5C2E1F !important;
-}
 
-/* Sidebar pink keunguan */
-section[data-testid="stSidebar"] {
-    background-color: #D291BC !important;
-    color: #5C2E1F !important;
-}
-
-/* Header transparan */
-header[data-testid="stHeader"] {
-    background: rgba(255, 255, 255, 0.0) !important;
-}
-/* Tombol */
 button, .stButton button, .stDownloadButton button {
     background-color: #5C2E1F !important;
     color: white !important;
@@ -186,16 +169,25 @@ button, .stButton button, .stDownloadButton button {
 button:hover {
     background-color: #3E1B16 !important;
 }
+</style>
+"""
+st.markdown(page_bg_style, unsafe_allow_html=True)
 
-/* Link */
-a, .stMarkdown a {
+# Tambahkan warna background ke sidebar langsung dari dalam sidebar
+sidebar_bg_style = """
+<style>
+[data-testid="stSidebarContent"] {
+    background-color: #D291BC !important;
     color: #5C2E1F !important;
-    text-decoration: underline !important;
 }
 </style>
 """
+st.sidebar.markdown(sidebar_bg_style, unsafe_allow_html=True)
 
-st.markdown(page_bg_style, unsafe_allow_html=True)
+# Contoh konten
+st.title("Judul Mahogany")
+st.sidebar.title("Menu Sidebar")
+st.sidebar.button("Tombol Sidebar")
 
 
 st.markdown("---")
