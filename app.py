@@ -148,7 +148,7 @@ page_bg_style = """
 <style>
 /* Background Utama */
 .stApp {
-    background-image: file("top-view-sweet-candy.jpg");
+    background-image: url("https://i.pinimg.com/736x/ea/83/10/ea83104169dc7ecce3c3e68de7c626fb.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
