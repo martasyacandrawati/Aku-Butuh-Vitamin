@@ -146,25 +146,37 @@ elif selection == "Fakta Menarik":
 
 page_bg_style = """
 <style>
-[data-testid="stAppViewContainer"] {
+/* Ganti background utama */
+.stApp {
     background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
 }
 
-html, body, [class*="st-"] {
-    color: white;
+/* Warna teks agar tetap terbaca */
+html, body, [class^="st-"], [class*=" st-"] {
+    color: #5C2E1F !important;
 }
 
-[data-testid="stSidebar"] {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+/* Sidebar */
+[data-testid="stSidebarContent"] {
+    background-color: #D291BC !important;
+    color: #5C2E1F !important;
+}
+/* Judul */
+h1, h2, h3 {
+    color: #5C2E1F !important;
 }
 
-[data-testid="stHeader"] {
-    background: rgba(255, 255, 255, 0.0);
+/* Tombol */
+button, .stButton button, .stDownloadButton button {
+    background-color: #5C2E1F !important;
+    color: white !important;
+    border-radius: 6px;
+}
+button:hover {
+    background-color: #3E1B16 !important;
 }
 </style>
 """
