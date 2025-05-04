@@ -26,8 +26,8 @@ elif selection == "Fungsi dan Sumber Vitamin":
     st.subheader("Vitamin A")
     st.markdown("---")
     st.write("- Menjaga kesehatan mata (penglihatan malam)"
-             "- Mendukung sistem imun"
-             "- Membantu pertumbuhan dan perkembangan sel")
+    st.write("- Mendukung sistem imun")
+    st.write("- Membantu pertumbuhan dan perkembangan sel")
     st.subheader("Vitamin B")
     st.markdown("---")
     st.write("Vitamin Memiliki Berbagai Fungsi Dari Berbagai Sumber loh!")
