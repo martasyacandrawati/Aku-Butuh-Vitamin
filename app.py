@@ -6,9 +6,7 @@ st.set_page_config(page_title="Buah dan Vitamin Didalam-nya", layout="centered")
 # Sidebar for input
 with st.sidebar:
     st.header("Menu")
-    selection = st.radio("Ingin Tahu Tentang Apa?", ["Kenali Vitamin", "Manfaat Vitamin", "Fungsi Vitamin", "Kekurangan", "Fakta Menarik"])
-    st.header("About")
-    selection = st.radio(["Tentang Kami"])
+    selection = st.radio("Ingin Tahu Tentang Apa?", ["Kenali Vitamin", "Manfaat Vitamin", "Fungsi Vitamin", "Kekurangan", "Fakta Menarik","Tentang Kami"])
 
 # Konten berdasarkan pilihan
 if selection == "Kenali Vitamin":
