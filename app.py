@@ -146,21 +146,30 @@ elif selection == "Fakta Menarik":
 
 page_bg_style = """
 <style>
+/* Background utama */
 [data-testid="stAppViewContainer"] {
     background: linear-gradient(135deg, #d4fc79, #96e6a1);
     background-size: cover;
-    color: #000000; /* Warna teks: hitam */
+    color: black;
 }
 
-[data-testid="stHeader"], [data-testid="stSidebar"] {
-    background: rgba(255, 255, 255, 0.6);
-}
-
+/* Warna teks utama */
 html, body, [class*="st-"] {
-    color: #000000; /* pastikan semua teks hitam */
+    color: black;
+}
+
+/* Warna teks di sidebar */
+[data-testid="stSidebar"] {
+    background-color: #ffffffcc;
+    color: black;
+}
+/* Header transparan */
+[data-testid="stHeader"] {
+    background: rgba(255, 255, 255, 0.0);
 }
 </style>
 """
+st.markdown(page_bg_style, unsafe_allow_html=True)
 
 page_bg_style = """
 <style>
