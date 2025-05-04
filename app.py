@@ -144,7 +144,6 @@ elif selection == "Kekurangan dan Kelebihan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 
-
 page_bg_style = """
 <style>
 [data-testid="stAppViewContainer"] {
@@ -164,6 +163,34 @@ html, body, [class*="st-"] {
     color: white;
 }
 
+[data-testid="stHeader"] {
+    background: rgba(255, 255, 255, 0.0);
+}
+</style>
+"""
+st.markdown(page_bg_style, unsafe_allow_html=True)
+
+page_bg_style = """
+<style>
+/* Background utama */
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #d4fc79, #96e6a1);
+    background-size: cover;
+    color: black;
+}
+
+/* Warna teks utama */
+html, body, [class*="st-"] {
+    color: black;
+}
+
+/* Warna teks di sidebar */
+[data-testid="stSidebar"] {
+    background-color: #ffffffcc;
+    color: black;
+}
+
+/* Header transparan */
 [data-testid="stHeader"] {
     background: rgba(255, 255, 255, 0.0);
 }
