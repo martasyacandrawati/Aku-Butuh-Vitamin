@@ -1,4 +1,4 @@
-import streamlit as st
+ import streamlit as st
 import math
 
 st.set_page_config(page_title="Buah dan Vitamin Didalam-nya", layout="centered")
@@ -49,36 +49,33 @@ elif selection == "Fungsi dan Sumber Vitamin":
     st.write("- Membantu menurunkan kolesterol")
     st.subheader("Sumber Alami Vitamin B3 (Niasin)")
     st.write("Daging ayam 🍗, ikan tuna 🐟, gandum utuh 🌾")
-
     st.subheader("Fungsi Vitamin B5 (Pantotenat)")
-    st.write("- Mengubah karbohidrat menjadi energi")
-    st.write("- Mendukung fungsi saraf dan otot")
+    st.write("- Sintesis hormon dan metabolisme lemak")
+    st.write("- Pembentukan sel darah merah")
     st.subheader("Sumber Alami Vitamin B5 (Pantotenat)")
-    st.write("Beras merah 🍚, daging babi 🍖, biji bunga matahari 🌻")
-
+    st.write("Alpukat 🥑, jamur 🍄, ayam 🍗, biji-bijian 🌰")
     st.subheader("Fungsi Vitamin B6 (Piridoksin)")
-    st.write("- Mengubah karbohidrat menjadi energi")
-    st.write("- Mendukung fungsi saraf dan otot")
+    st.write("- Metabolisme protein dan memproduksi neurotransmiter")
+    st.write("- mendukung fungsi otak dan suasana hati")
     st.subheader("Sumber Alami Vitamin B6 (Piridoksin)")
-    st.write("Beras merah 🍚, daging babi 🍖, biji bunga matahari 🌻")
-
+    st.write("Pisang 🍌, kentang 🥔, ayam 🍗, ikan 🐟")
     st.subheader("Fungsi Vitamin B7 (Biotin)")
-    st.write("- Mengubah karbohidrat menjadi energi")
-    st.write("- Mendukung fungsi saraf dan otot")
+    st.write("- Mendukung kesehatan rambut, kulit, dan kuku")
+    st.write("- membantu metabolisme lemak dan protein")
     st.subheader("Sumber Alami Vitamin B7 (Biotin)")
-    st.write("Beras merah 🍚, daging babi 🍖, biji bunga matahari 🌻")
-
+    st.write("Telur 🥚, kacang-kacangan 🥜, hati 🐄, kembang kol 🥦")
     st.subheader("Fungsi Vitamin B9 (Asam Folat)")
-    st.write("- Mengubah karbohidrat menjadi energi")
-    st.write("- Mendukung fungsi saraf dan otot")
+    st.write("- Membantu pembentukan sel darah merah")
+    st.write("- Mencegah cacat lahir pada janin")
+    st.write("- Sintesis DNA dan RNA")
     st.subheader("Sumber Alami Vitamin B9 (Asam Folat)")
-    st.write("Beras merah 🍚, daging babi 🍖, biji bunga matahari 🌻")
-
+    st.write("Sayur hijau 🥬, jeruk 🍊, kacang 🫘, roti fortifikasi 🍞")
     st.subheader("Fungsi Vitamin B12 (Kobalamin)")
-    st.write("- Mengubah karbohidrat menjadi energi")
-    st.write("- Mendukung fungsi saraf dan otot")
+    st.write("- Membantu pembentukan sel darah merah")
+    st.write("- Menjaga fungsi sistem saraf")
+    st.write("- Mendukung metabolisme energi")
     st.subheader("Sumber Alami Vitamin B12 (Kobalamin)")
-    st.write("Beras merah 🍚, daging babi 🍖, biji bunga matahari 🌻")
+    st.write("Daging 🥩, ikan 🐟, telur 🥚, susu 🥛")
 elif selection == "Kekurangan dan Kelebihan":
     st.write("Ini konten untuk Mengetahui Kekurangan.")
 elif selection == "Fakta Menarik":
