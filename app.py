@@ -159,6 +159,7 @@ html, body, [class*="st-"] {
     color: #5C2E1F !important;
     font-family: "Arial", sans-serif;
 }
+
 /* Judul */
 h1, h2, h3 {
     color: #5C2E1F !important;
@@ -197,7 +198,6 @@ a, .stMarkdown a {
 
 import streamlit as st
 st.markdown(page_bg_style, unsafe_allow_html=True)
-
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
