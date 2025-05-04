@@ -146,6 +146,14 @@ elif selection == "Fakta Menarik":
 
 page_bg_style = """
 <style>
+...
+/* Garis pemisah (---) */
+hr {
+    border: none !important;
+    border-top: 3px solid #5C2E1F !important;
+    margin: 1rem 0 !important;
+    opacity: 1 !important;
+}
 /* Background Utama */
 .stApp {
     background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg");
