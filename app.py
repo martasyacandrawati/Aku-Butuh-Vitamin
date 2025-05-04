@@ -148,7 +148,7 @@ page_bg_style = """
 <style>
 /* Background Utama */
 .stApp {
-    background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg");
+    background-image: url("https://www.freepik.com/premium-photo/high-angle-view-multi-colored-pencils-table_102573188.htm#fromView=search&page=1&position=38&uuid=869a1f72-6a5f-4dd6-97e6-e6dc73576937&query=medicine+pink");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
