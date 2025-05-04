@@ -146,7 +146,7 @@ elif selection == "Fakta Menarik":
 
 page_bg_style = """
 <style>
-/* Background halaman utama (bukan hanya sidebar) */
+/* Background utama */
 .stApp {
     background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg");
     background-size: cover;
@@ -154,7 +154,7 @@ page_bg_style = """
     background-repeat: no-repeat;
 }
 
-/* Warna teks utama */
+/* Warna teks */
 html, body, [class^="st-"], [class*=" st-"] {
     color: #5C2E1F !important;
 }
@@ -169,15 +169,23 @@ h1, h2, h3 {
     color: #5C2E1F !important;
 }
 
-/* Tombol */
-button, .stButton button, .stDownloadButton button {
-    background-color: #5C2E1F !important;
-    color: white !important;
-    border-radius: 6px;
+/* Tombol pastel lucu */
+.stButton > button, .stDownloadButton > button {
+    background-color: #F3C1DC !important;
+    color: #5C2E1F !important;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
 }
-
-button:hover {
-    background-color: #3E1B16 !important;
+/* Hover efek lucu */
+.stButton > button:hover, .stDownloadButton > button:hover {
+    background-color: #E8A9C7 !important;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 </style>
 """
