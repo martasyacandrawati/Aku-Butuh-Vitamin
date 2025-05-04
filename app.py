@@ -148,7 +148,7 @@ page_bg_style = """
 <style>
 /* Background Utama */
 [data-testid="stAppViewContainer"] > div:first-child {
-    background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg");
+    background-image: url("https://i.pinimg.com/736x/a1/c8/38/a1c838096e730d60f2637ce39279d3fe.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
