@@ -144,6 +144,8 @@ elif selection == "Kekurangan dan Kelebihan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 
+import streamlit as st
+
 page_bg_style = """
 <style>
 /* Background gambar utama */
