@@ -146,29 +146,58 @@ elif selection == "Fakta Menarik":
 
 page_bg_style = """
 <style>
-[data-testid="stAppViewContainer"] {
-    background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
+/* Background utama */
+[data-testid="stAppViewContainer"] > div:first-child {
+    background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
+/* Warna teks mahogany */
 html, body, [class*="st-"] {
-    color: white;
+    color: #5C2E1F !important;
+    font-family: "Arial", sans-serif;
+}
+/* Judul */
+h1, h2, h3 {
+    color: #5C2E1F !important;
 }
 
+/* Sidebar dengan warna pink keunguan */
 [data-testid="stSidebar"] {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+    background-color: #D291BC !important;
+    color: #5C2E1F !important;
 }
 
+/* Header transparan */
 [data-testid="stHeader"] {
-    background: rgba(255, 255, 255, 0.0);
+    background: rgba(255, 255, 255, 0.0) !important;
+}
+
+/* Button */
+button, .stButton button, .stDownloadButton button {
+    background-color: #5C2E1F !important;
+    color: white !important;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #3E1B16 !important;
+}
+
+/* Link dan teks interaktif */
+a, .stMarkdown a {
+    color: #5C2E1F !important;
+    text-decoration: underline;
 }
 </style>
 """
+
+import streamlit as st
 st.markdown(page_bg_style, unsafe_allow_html=True)
+
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
