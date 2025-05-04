@@ -24,16 +24,20 @@ elif selection == "Kekurangan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 
-background_image = """
-<style>
-body {
-    background-image: url("file:///C:/Users/marta/Downloads/rhfcbdst%20j,jb.jpeg");
-    background-size: cover;
-}
-</style>
-"""
+st.markdown(
+    """
+    <style>
+    body, h1, h2, h3, h4, h5, h6, p, span, label, div, li, ul, ol, select, input, textarea, button {
+        color: white !important;
+    }
 
-st.markdown(background_image, unsafe_allow_html=True)
+    .stApp {
+        background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+                    url(https://www.freepik.com/free-photo/vitamin-b-tablets-yellow-background_1168207.htm#fromView=search&page=2&position=44&uuid=2bc5d22f-28ba-4221-b9a1-36be2ef3daa1&query=vitamin);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
