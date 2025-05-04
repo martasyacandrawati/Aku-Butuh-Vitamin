@@ -103,7 +103,7 @@ elif selection == "Fungsi dan Sumber Vitamin":
     st.write("- Meningkatkan daya tahan tubuh")
     st.write("- Membantu penyembuhan luka, antioksidan")
     st.subheader("Contoh Kegunaan Dalam Kehidupan Sehari-hari")
-    st.write(
+    st.write("Saat kamu mulai flu atau sariawan, maka vitamin C akan membantu mempercepat pemulihan tubuh.")
     st.subheader("Sumber Alami Vitamin C")
     st.write("Jeruk 🍊, Stroberi 🍓, Tomat 🍅, Paprika 🫑")  
     st.markdown("---")
