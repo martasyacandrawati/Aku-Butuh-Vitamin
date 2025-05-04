@@ -148,7 +148,7 @@ page_bg_style = """
 <style>
 /* Background Utama */
 .stApp {
-    background-image: url("https://i.pinimg.com/736x/db/eb/ed/dbebed603f7a449d4b92ec9760f0274b.jpg");
+    background-image: url("https://i.pinimg.com/736x/17/9b/bb/179bbb60a6fcbd7f45156d66b6347a07.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
