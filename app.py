@@ -146,7 +146,7 @@ elif selection == "Fakta Menarik":
 
 page_bg_style = """
 <style>
-/* Background utama */
+/* Background Utama */
 [data-testid="stAppViewContainer"] > div:first-child {
     background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg");
     background-size: cover;
@@ -154,7 +154,7 @@ page_bg_style = """
     background-repeat: no-repeat;
 }
 
-/* Warna teks agar terbaca */
+/* Warna Teks */
 html, body, [class^="st-"], [class*=" st-"] {
     color: #5C2E1F !important;
 }
@@ -175,11 +175,13 @@ button, .stButton button, .stDownloadButton button {
     color: white !important;
     border-radius: 6px;
 }
+
 button:hover {
     background-color: #3E1B16 !important;
 }
 </style>
 """
+st.markdown(page_bg_style, unsafe_allow_html=True)
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
