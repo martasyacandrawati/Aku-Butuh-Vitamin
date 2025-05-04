@@ -144,19 +144,31 @@ elif selection == "Kekurangan dan Kelebihan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 
-css_sidebar = """
+page_bg_style = """
 <style>
-[data-testid="stSidebarContent"] {
-    background-color: #D291BC !important;
+[data-testid="stAppViewContainer"] {
+    background-image: url(https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+html, body, [class*="st-"] {
+    color: white;
+}
+
+[data-testid="stSidebar"] {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+[data-testid="stHeader"] {
+    background: rgba(255, 255, 255, 0.0);
 }
 </style>
 """
-
-st.sidebar.markdown(css_sidebar, unsafe_allow_html=True)
-st.sidebar.title("Sidebar Test")
-st.sidebar.write("Kalau ini pink keunguan, berarti berhasil!")
-
-st.write("Halo dari halaman utama!")
+st.markdown(page_bg_style, unsafe_allow_html=True)
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
