@@ -174,21 +174,28 @@ st.markdown(page_bg_style, unsafe_allow_html=True)
 page_bg_style = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background: linear-gradient(135deg, #d4fc79, #96e6a1); /* hijau daun ke kuning pastel */
+    background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+html, body, [class*="st-"] {
+    color: white;
+}
+
+[data-testid="stSidebar"] {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
 }
 
 [data-testid="stHeader"] {
     background: rgba(255, 255, 255, 0.0);
 }
-
-[data-testid="stSidebar"] {
-    background-color: #ffffffcc;
-}
-
 </style>
 """
-st.markdown(page_bg_style, unsafe_allow_html=True)
+
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
