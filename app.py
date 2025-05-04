@@ -147,7 +147,7 @@ elif selection == "Fakta Menarik":
 page_bg_style = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background-image: url(https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg);
+    background-image: url("https://i.pinimg.com/736x/b7/99/a1/b799a14446a6511b50f934abcb0eaf1c.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
