@@ -25,9 +25,9 @@ elif selection == "Fungsi dan Sumber Vitamin":
     st.write("Vitamin Memiliki Berbagai Fungsi Dari Berbagai Sumber loh! namun vitamin memiliki fungsi umum sebagai kofaktor dalam reaksi kimia yang dikatalisis oleh enzim, membantu tubuh dalam pertumbuhan, perkembangan, dan fungsi normal.")
     st.subheader("Vitamin A")
     st.markdown("---")
-    st.write("- Menjaga kesehatan mata (penglihatan malam)",
-             "-Mendukung sistem imun",
-             "-Membantu pertumbuhan dan perkembangan sel")
+    st.write("- Menjaga kesehatan mata (penglihatan malam)"
+             "- Mendukung sistem imun"
+             "- Membantu pertumbuhan dan perkembangan sel")
     st.subheader("Vitamin B")
     st.markdown("---")
     st.write("Vitamin Memiliki Berbagai Fungsi Dari Berbagai Sumber loh!")
