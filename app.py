@@ -37,14 +37,12 @@ elif selection == "Fungsi dan Sumber Vitamin":
     st.write("- Mengubah karbohidrat menjadi energi")
     st.write("- Mendukung fungsi saraf dan otot")
     st.subheader("Sumber Alami Vitamin B1 (Thiamin)")
-    st.write("Beras merah 🍚, daging babi 🍖, biji bunga matahari 🌻")
-    
+    st.write("Beras merah 🍚, daging babi 🍖, biji bunga matahari 🌻")  
     st.subheader("Fungsi Vitamin B2 (Riboflavin)")
     st.write("- Membantu produksi energi")
     st.write("- Menjaga kesehatan kulit dan mata")
     st.subheader("Sumber Alami Vitamin B2 (Riboflavin)")
     st.write("Susu 🥛, telur 🥚, hati 🐄, sayur hijau 🥬")
-    
     st.subheader("Fungsi Vitamin B3 (Niasin)")
     st.write("- Metabolisme energi")
     st.write("- Menjaga kulit dan pencernaan")
