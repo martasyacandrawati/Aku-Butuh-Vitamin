@@ -192,88 +192,43 @@ hr {
 """
 st.markdown(page_bg_style, unsafe_allow_html=True)
 
+/* Background loading screen */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/736x/ff/20/b2/ff20b2aac0516fd1019919d48faa7c5e.jpg'); /* Ganti dengan URL gambar dari Pinterest */
+    background-size: cover;
+    background-position: center;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Loading Kelompok 5</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body, html {
-      height: 100%;
-      font-family: 'Georgia', serif;
-    }
+/* Loading spinner */
+.loading-screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner {
+    border: 6px solid #f3f3f3; /* Light gray background */
+    border-top: 6px solid #3498db; /* Blue color for the spinner */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
 
-    .loader {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: url('https://www.canva.com/design/DAGmiWbRGxE/FMioXZy8dcTD_httaHRHuw/edit?utm_content=DAGmiWbRGxE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton') no-repeat center center/cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
-      flex-direction: column;
-      opacity: 1;
-      transition: opacity 1s ease;
-    }
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
-    .loader.fade-out {
-      opacity: 0;
-      pointer-events: none;
-    }
- .loader-text {
-      color: white;
-      font-size: 2em;
-      font-weight: bold;
-      text-align: center;
-      animation: fadeInOut 2s infinite;
-      text-shadow: 1px 1px 4px #000;
-    }
-
-    @keyframes fadeInOut {
-      0%, 100% { opacity: 0; }
-      50% { opacity: 1; }
-    }
-
-    .content {
-      display: none;
-      padding: 20px;
-    }
-  </style>
-</head>
-<body>
-  <div class="loader" id="loader">
-    <div class="loader-text">Kelompok 5<br>••••✧••••</div>
-  </div>
-<div class="content" id="content">
-    <!-- Isi halaman utama -->
-    <h1>Halo, ini halaman utama</h1>
-  </div>
-
-  <script>
-    window.addEventListener("load", () => {
-      setTimeout(() => {
-        const loader = document.getElementById("loader");
-        const content = document.getElementById("content");
-        loader.classList.add("fade-out");
-        setTimeout(() => {
-          loader.style.display = "none";
-          content.style.display = "block";
-        }, 1000); // tunggu animasi fade-out selesai (1 detik)
-      }, 3000); // tunggu total 3 detik sebelum fade-out
-    });
-  </script>
-</body>
-</html>
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
