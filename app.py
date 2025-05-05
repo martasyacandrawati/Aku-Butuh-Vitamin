@@ -192,5 +192,88 @@ hr {
 """
 st.markdown(page_bg_style, unsafe_allow_html=True)
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loading Kelompok 5</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: 'Georgia', serif;
+    }
+
+    .loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://www.canva.com/design/DAGmiWbRGxE/FMioXZy8dcTD_httaHRHuw/edit?utm_content=DAGmiWbRGxE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      flex-direction: column;
+      opacity: 1;
+      transition: opacity 1s ease;
+    }
+
+    .loader.fade-out {
+      opacity: 0;
+      pointer-events: none;
+    }
+ .loader-text {
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      animation: fadeInOut 2s infinite;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    @keyframes fadeInOut {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    .content {
+      display: none;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-text">Kelompok 5<br>••••✧••••</div>
+  </div>
+<div class="content" id="content">
+    <!-- Isi halaman utama -->
+    <h1>Halo, ini halaman utama</h1>
+  </div>
+
+  <script>
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        const loader = document.getElementById("loader");
+        const content = document.getElementById("content");
+        loader.classList.add("fade-out");
+        setTimeout(() => {
+          loader.style.display = "none";
+          content.style.display = "block";
+        }, 1000); // tunggu animasi fade-out selesai (1 detik)
+      }, 3000); // tunggu total 3 detik sebelum fade-out
+    });
+  </script>
+</body>
+</html>
+
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
