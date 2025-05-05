@@ -3,10 +3,6 @@ import math
 
 st.set_page_config(page_title="Buah dan Vitamin Didalam-nya", layout="centered")
 
-# loading screen
-with st.spinner("Tunggu sebentar ya..."):
-    time.sleep(3)  # Simulasi loading 3 detik
-
 # Sidebar for input
 with st.sidebar:
     st.header("Menu")
@@ -233,6 +229,11 @@ def show_loading_screen():
     </div>
     """
     st.markdown(loading_css, unsafe_allow_html=True)
+# Tampilkan loading screen
+show_loading_screen()
+
+# Simulasi proses loading
+time.sleep(3)
 
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
