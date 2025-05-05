@@ -192,48 +192,5 @@ hr {
 """
 st.markdown(page_bg_style, unsafe_allow_html=True)
 
-# Fungsi untuk menampilkan loading screen custom
-def show_loading_screen():
-    loading_css = """
-    <style>
-    .loading-screen {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url('https://i.pinimg.com/736x/ff/20/b2/ff20b2aac0516fd1019919d48faa7c5e.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-    }
-  .spinner {
-        border: 6px solid #f3f3f3;
-        border-top: 6px solid #3498db;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        animation: spin 1s linear infinite;
-    }
-    @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
-    </style>
-    <div class="loading-screen">
-        <div class="spinner"></div>
-    </div>
-    """
-    st.markdown(loading_css, unsafe_allow_html=True)
-# Tampilkan loading screen
-show_loading_screen()
-
-# Simulasi proses loading
-time.sleep(3)
-
 st.markdown("---")
 st.caption("📘 Made with Streamlit for educational purposes.")
