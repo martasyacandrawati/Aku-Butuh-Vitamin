@@ -3,6 +3,10 @@ import math
 
 st.set_page_config(page_title="Buah dan Vitamin Didalam-nya", layout="centered")
 
+# loading screen
+with st.spinner("Tunggu sebentar ya..."):
+    time.sleep(3)  # Simulasi loading 3 detik
+
 # Sidebar for input
 with st.sidebar:
     st.header("Menu")
