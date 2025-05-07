@@ -138,7 +138,7 @@ elif selection == "Fungsi dan Sumber Vitamin":
     st.write("Jika kamu terluka, dan luka-mu tak kunjung kering atau membeku, maka kamu butuh vitamin K untuk membantu proses pembekuan darah.")
     st.subheader("Sumber Alami Vitamin K")
     st.write("Brokoli 🥦, Sayuran hijau 🥬, Hati 💖")
-    st.markdown("-👩🏻‍🔬🧑🏻‍🔬-")
+    st.markdown("---👩🏻‍🔬🧑🏻‍🔬---")
     st.subheader("Jadi, apakah kamu sudah tau vitamin apa yang kamu butuhkan?")
 elif selection == "Kekurangan dan Kelebihan":
     st.title("Kalian Tau Ga Sih?")
@@ -146,7 +146,7 @@ elif selection == "Kekurangan dan Kelebihan":
     st.markdown("---")
     st.subheader("Yuk kita lihat apa saja yang kita alami jika kekurangan vitamin.")
     st.write("")
-    st.markdown("-🍅🍅🍅-")
+    st.markdown("---🍅🍅🍅---")
     st.subheader("Yuk kita lihat apa saja yang kita alami jika kelebihan vitamin.")
     st.write("Kalian tau ga sih? Mengonsumsi terlalu banyak vitamin, terutama yang larut dalam lemak, dapat menyebabkan keracunan dan masalah kesehatan lainnya pada dirimu loh!")
 elif selection == "Fakta Menarik":
