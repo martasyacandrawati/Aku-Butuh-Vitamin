@@ -156,23 +156,28 @@ elif selection == "Quiz":
     questions = [
         {
             "question": "Saat kamu belajar di malam hari atau sering menatap layar mata-mu bisa menjadi rabun, maka vitamin apa yang kamu butuhkan?",
-            "options": ["A. Vitamin B1","B. Vitamin B2","C. Vitamin A","D.Vitamin k"],
+            "options": ["A. Vitamin B1","B. Vitamin B2","C. Vitamin A","D.Vitamin K"],
             "answer": "C"
         },
         {
-            "question": "Berapakah hasil dari 2 + 3?",
-            "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
-            "answer": "B"
+            "question": "Saat kamu belajar atau kerja seharian, maka kamu butuh Vitamin?",
+            "options": ["A. Vitamin B1", "B. Vitamin B2", "C. Vitamin B6", "D. Vitamin B7"],
+            "answer": "A"
         },
         {
-            "question": "Berapakah hasil dari 2 + 3?",
-            "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
-            "answer": "B"
+            "question": "Bahan pangan apa yang mengandung vitamin C, A, K dan folat?",
+            "options": ["A. Jeruk & Apel", "B. Ayam & Ikan", "C. Bayam & Brokoli", "D. Udang Keju & Mie gacoan"],
+            "answer": "c"
         },
         {
-            "question": "Berapakah hasil dari 2 + 3?",
-            "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
-            "answer": "B"
+            "question": "Vitamin berikut yang berperan sebagai antioksidan utama dalam tubuh adalah...",
+            "options": ["A. Vitamin B12", "B. Vitamin K", "C. Vitamin E", "D. Vitamin B6"],
+            "answer": "C"
+        },
+        {
+            "question": "Untuk mendukung pertumbuhan janin secara optimal, vitamin apakah yang diperlukan?",
+            "options": ["A. Vitamin B9", "B. Vitamin B6", "C. Vitamin B5", "D. Vitamin B2"],
+            "answer": "A"
         }
     ]
 
@@ -190,8 +195,6 @@ elif selection == "Quiz":
             if user_answers[f"q{idx}"] == q["answer"]:
                 score += 1
         st.success(f"Skor akhir Anda: {score}/{len(questions)}")
-
-
 elif selection == "Tentang kami":
     st.write("Ini konten ttg kami.")
 
