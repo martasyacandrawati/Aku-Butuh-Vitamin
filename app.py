@@ -176,6 +176,7 @@ elif selection == "Quiz":
         },
         {
             "question": "Untuk mendukung pertumbuhan janin secara optimal, vitamin apakah yang diperlukan?",
+            "image": "https://i.pinimg.com/736x/d5/fc/52/d5fc5250f5dea26d4c679fdbd0dcc4d1.jpg",
             "options": ["A. Vitamin B9", "B. Vitamin B6", "C. Vitamin B5", "D. Vitamin B2"],
             "answer": "A"
         }
