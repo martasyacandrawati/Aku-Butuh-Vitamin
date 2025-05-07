@@ -210,7 +210,6 @@ elif selection == "Quiz":
     elif score == 5:
         st.write("🏆 PERFECT! Kamu emang panutan hidup sehat! 🏆")
         st.balloons()
-        st.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=200)
 
 elif selection == "Tentang Kami":
     st.title("Aplikasi Ini Dibuat Dengan Tujuan :")
