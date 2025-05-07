@@ -150,7 +150,7 @@ elif selection == "Kekurangan dan Kelebihan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 elif selection == "Quiz":
-    st.title("Yuk, kita lihat apakah kamu sudah benar-benar mengetahui tentang vitamin😏")
+    st.title("Yuk, kita lihat apakah kamu sudah benar-benar mengetahui tentang vitamin🫵😏")
     st.markdown("---")
 
     questions = [
