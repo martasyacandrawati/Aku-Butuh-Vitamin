@@ -181,23 +181,22 @@ elif selection == "Quiz":
             "answer": "A"
         }
     ]
+    score = 0
+    user_answers = {}
     
-score = 0
-user_answers = {}
-
-for idx, q in enumerate(questions):
+    for idx, q in enumerate(questions):
     st.subheader(f"Pertanyaan {idx+1}: {q['question']}")
     user_choice = st.radio("Pilih jawaban:", q["options"], key=f"q{idx}")
     user_answers[f"q{idx}"] = user_choice[0]  # Ambil huruf depan (A/B/C/D)
     st.markdown("---")
-
-if st.button("Lihat Skor"):
+    
+    if st.button("Lihat Skor"):
     for idx, q in enumerate(questions):
         if user_answers[f"q{idx}"] == q["answer"]:
             score += 1
     st.success(f"Skor akhir Anda: {score}/{len(questions)}")
-
-elif selection == "Tentang Kami":
+   
+   elif selection == "Tentang Kami":
     st.title("Aplikasi Ini Dibuat Dengan Tujuan :")
     st.markdown("---")
     st.write("💊 Membantu user untuk mengenali vitamin.")
