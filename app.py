@@ -167,7 +167,7 @@ elif selection == "Quiz":
         {
             "question": "Bahan pangan apa yang mengandung vitamin C, A, K dan folat?",
             "options": ["A. Jeruk & Apel", "B. Ayam & Ikan", "C. Bayam & Brokoli", "D. Udang Keju & Mie gacoan"],
-            "answer": "c"
+            "answer": "C"
         },
         {
             "question": "Vitamin berikut yang berperan sebagai antioksidan utama dalam tubuh adalah...",
