@@ -13,6 +13,7 @@ if selection == "Kenali Vitamin":
     st.title("Ayo Kita Kenali Vitamin!")
     st.markdown("---")
     st.subheader("Tapi sebelum itu, kalian tau ga sih siapa penemu vitamin?")
+    st.image("https://i.pinimg.com/736x/74/0a/f4/740af4b86e32855fd4486de3315ade73.jpg")
     st.write("Penemu vitamin adalah Casimir Funk, seorang ahli biokimia 🧪👨🏼‍🔬yang menemukan dan memberikan nama vitamin pada zat-zat penting yang dibutuhkan tubuh untuk kesehatan. Ia juga dikenal sebagai Bapak Terapi Vitamin karena karyanya yang penting dalam memahami dan mengobati kekurangan vitamin. Funk mempopulerkan istilah ✨vitamin✨(Vital Amine) untuk menyebut zat-zat penting yang dibutuhkan tubuh, yang kemudian disingkat menjadi vitamin.")
     st.markdown("---")
     st.subheader("Vitamin Itu Apa?")
