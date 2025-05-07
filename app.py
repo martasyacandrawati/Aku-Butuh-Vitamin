@@ -150,7 +150,7 @@ elif selection == "Kekurangan dan Kelebihan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 elif selection == "Quiz":
-    st.title("Quiz Seru tentang Pengetahuan Umum!")
+    st.title("Yuk, kita lihat apakah kamu sudah benar-benar mengetahui tentang vitamin😏")
     st.markdown("---")
 
     questions = [
@@ -159,6 +159,16 @@ elif selection == "Quiz":
             "options": ["A. Bandung", "B. Surabaya", "C. Jakarta", "D. Medan"],
             "answer": "C"
         },
+        {
+            "question": "Berapakah hasil dari 2 + 3?",
+            "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+            "answer": "B"
+        }
+        {
+            "question": "Berapakah hasil dari 2 + 3?",
+            "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+            "answer": "B"
+        }
         {
             "question": "Berapakah hasil dari 2 + 3?",
             "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
