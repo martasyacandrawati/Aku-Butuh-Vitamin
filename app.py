@@ -6,7 +6,7 @@ st.set_page_config(page_title="Buah dan Vitamin Didalam-nya", layout="centered")
 # Sidebar for input
 with st.sidebar:
     st.header("Menu")
-    selection = st.radio("Ingin Tahu Tentang Apa?", ["Kenali Vitamin", "Fungsi dan Sumber Vitamin", "Kekurangan dan Kelebihan", "Fakta Menarik","Quiz", "Tentang Kami"])
+    selection = st.radio("Ingin Tahu Tentang Apa?", ["Kenali Vitamin", "Fungsi dan Sumber Vitamin", "Kekurangan dan Kelebihan", "Fakta Menarik", "Quiz", "Tentang Kami"])
 
 # Konten berdasarkan pilihan
 if selection == "Kenali Vitamin":
@@ -150,32 +150,9 @@ elif selection == "Kekurangan dan Kelebihan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 elif selection == "Quiz":
-    questions = [
-    {
-        "question": "Apa ibu kota Indonesia?",
-        "options": ["A. Bandung", "B. Surabaya", "C. Jakarta", "D. Medan"],
-        "answer": "C"
-    },
-    {
-        "question": "Berapakah hasil dari 2 + 3?",
-        "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
-        "answer": "B"
-    }
-]
-
-score = 0
-for q in questions:
-    print(q["question"])
-    for option in q["options"]:
-        print(option)
-    user_answer = input("Jawaban Anda (A/B/C/D): ").upper()
-    if user_answer == q["answer"]:
-        print("Benar!\n")
-        score += 1
-    else:
-        print(f"Salah! Jawaban yang benar adalah {q['answer']}\n")
-
-print(f"Skor akhir Anda: {score}/{len(questions)}")
+   st.write("Ini konten untuk quiz.")
+elif selection == "Quiz":
+    st.write("Ini konten tytg kami.")
 
 page_bg_style = """
 <style>
