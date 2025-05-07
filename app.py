@@ -196,8 +196,10 @@ elif selection == "Quiz":
             if user_answers[f"q{idx}"] == q["answer"]:
                 score += 1
         st.success(f"Skor akhir Anda: {score}/{len(questions)}")
-        
-    if score == 1:
+
+    if score == 0:
+        st.write("☠Wah, kamu ngisi kuisnya sambil merem ya?☠")
+    elif score == 1:
         st.write("🤡 Hmm... minimal kamu tau satu hal, itu pun mungkin kebetulan... 🤡")
     elif score == 2:
         st.write("🤯 Lumayan, udah mulai keliatan bibit-bibit paham vitamin. 🤯")
