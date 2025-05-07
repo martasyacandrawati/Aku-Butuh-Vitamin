@@ -143,7 +143,6 @@ elif selection == "Fungsi dan Sumber Vitamin":
 elif selection == "Kekurangan dan Kelebihan":
     st.title("Kalian Tau Ga Sih?")
     st.subheader("Jika kita kekurangan vitamin atau kelebihan vitamin dalam tubuh bisa berdampak buruk.")
-    st.markdown("---")
     st.write("Yuk kita lihat apa saja yang kita alami jika kekurangan vitamin.")
     st.markdown("---")
     st.write("Yuk kita lihat apa saja yang kita alami jika kelebihan vitamin.")
