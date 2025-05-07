@@ -151,7 +151,7 @@ elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 elif selection == "Quiz":
    st.write("Ini konten untuk quiz.")
-elif selection == "Quiz":
+elif selection == "Tentang kami":
     st.write("Ini konten tytg kami.")
 
 page_bg_style = """
