@@ -164,8 +164,8 @@ elif selection == "Quiz":
 ]
 
 score = 0
-for q in questions:
-    print(q["question"])
+    for q in questions:
+        print(q["question"])
     for option in q["options"]:
         print(option)
     user_answer = input("Jawaban Anda (A/B/C/D): ").upper()
