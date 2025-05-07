@@ -182,7 +182,6 @@ elif selection == "Quiz":
         }
     ]
     
-    if st.button("Lihat Skor"):
     score = 0
     user_answers = {}
 
@@ -197,7 +196,8 @@ elif selection == "Quiz":
             if user_answers[f"q{idx}"] == q["answer"]:
                 score += 1
         st.success(f"Skor akhir Anda: {score}/{len(questions)}")
-
+ 
+if st.button("Lihat Skor"):
     if score == 0:
         st.write("☠Wah, kamu ngisi kuisnya sambil merem ya?☠")
     elif score == 1:
