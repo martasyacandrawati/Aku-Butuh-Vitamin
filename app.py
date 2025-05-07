@@ -6,7 +6,7 @@ st.set_page_config(page_title="Buah dan Vitamin Didalam-nya", layout="centered")
 # Sidebar for input
 with st.sidebar:
     st.header("Menu")
-    selection = st.radio("Ingin Tahu Tentang Apa?", ["Kenali Vitamin", "Fungsi dan Sumber Vitamin", "Kekurangan dan Kelebihan", "Fakta Menarik", "Quiz", "Tentang Kami"])
+    selection = st.radio("Ingin Tahu Tentang Apa?", ["Kenali Vitamin", "Fungsi dan Sumber Vitamin", "Kekurangan dan Kelebihan", "Fakta Menarik", "Quiz", "Tentang Aplikasi"])
 
 # Konten berdasarkan pilihan
 if selection == "Kenali Vitamin":
@@ -224,7 +224,7 @@ elif selection == "Quiz":
             st.balloons()
 
    
-elif selection == "Tentang Kami":
+elif selection == "Tentang Aplikasi":
     st.title("Aplikasi Ini Dibuat Dengan Tujuan :")
     st.markdown("---")
     st.write("💊 Membantu user untuk mengenali vitamin.")
