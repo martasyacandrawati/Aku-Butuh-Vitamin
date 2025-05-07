@@ -155,7 +155,7 @@ elif selection == "Kekurangan dan Kelebihan":
     st.write("Yuk kita lihat apa saja yang kita alami jika kelebihan vitamin.")
     st.write("Kalian tau ga sih? Mengonsumsi terlalu banyak vitamin, terutama yang larut dalam lemak, dapat menyebabkan keracunan dan masalah kesehatan lainnya pada dirimu loh!")
 elif selection == "Fakta Menarik":
-    st.header("Kalian tau ga sih?")
+    st.subheader("Kalian tau ga sih?")
     st.header("vitamin juga punya fakta menarik loh! yuk, kita cari tau bersama!")
     st.markdown("---")
     st.write("Vitamin tidak dapat dihasilkan oleh tubuh karena mereka adalah senyawa organik esensial yang dibutuhkan untuk berbagai fungsi tubuh, namun tubuh tidak memiliki kemampuan untuk memproduksinya secara alami.")
