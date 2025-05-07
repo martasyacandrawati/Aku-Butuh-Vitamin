@@ -176,8 +176,6 @@ for q in questions:
         print(f"Salah! Jawaban yang benar adalah {q['answer']}\n")
 
 print(f"Skor akhir Anda: {score}/{len(questions)}")
-elif selection == "Tentang Kami":
-    st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 
 page_bg_style = """
 <style>
