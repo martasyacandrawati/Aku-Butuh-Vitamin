@@ -199,6 +199,8 @@ elif selection == "Quiz":
                 score += 1
         st.success(f"Skor akhir Anda: {score}/{len(questions)}")
 elif selection == "Tentang kami":
+    st.title("Aplikasi Ini Dibuat Dengan Tujuan")
+    st.markdown("---")
     st.write("Ini konten ttg kami.")
 
 page_bg_style = """
