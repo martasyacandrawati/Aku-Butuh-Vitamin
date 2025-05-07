@@ -196,6 +196,22 @@ elif selection == "Quiz":
             if user_answers[f"q{idx}"] == q["answer"]:
                 score += 1
         st.success(f"Skor akhir Anda: {score}/{len(questions)}")
+        
+    if score == 0:
+        st.write("🤡 Wah, kamu ngisi kuisnya sambil merem ya? 🤡")
+    elif score == 1:
+        st.write("🤡 Hmm... minimal kamu tau satu hal, itu pun mungkin kebetulan... 🤡")
+    elif score == 2:
+        st.write("🤯 Lumayan, udah mulai keliatan bibit-bibit paham vitamin. 🤯")
+    elif score == 3:
+        st.write("👏🏻 Bagus! Setengah jalan menuju jadi master vitamin! 👏🏻")
+    elif score == 4:
+        st.write("😻 Wow! Dikit lagi jadi ahli gizi nih! 😻")
+    elif score == 5:
+        st.write("🏆 PERFECT! Kamu emang panutan hidup sehat! 🏆")
+        st.balloons()
+        st.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=200)
+
 elif selection == "Tentang Kami":
     st.title("Aplikasi Ini Dibuat Dengan Tujuan :")
     st.markdown("---")
