@@ -181,7 +181,8 @@ elif selection == "Quiz":
             "answer": "A"
         }
     ]
-
+    
+    if st.button("Lihat Skor"):
     score = 0
     user_answers = {}
 
