@@ -155,8 +155,8 @@ elif selection == "Quiz":
 
     questions = [
         {
-            "question": "Apa ibu kota Indonesia?",
-            "options": ["A. Bandung", "B. Surabaya", "C. Jakarta", "D. Medan"],
+            "question": "Saat kamu belajar di malam hari atau sering menatap layar mata-mu bisa menjadi rabun, maka vitamin apa yang kamu butuhkan?",
+            "options": ["A. Vitamin B1","B. Vitamin B2","C. Vitamin A","D.Vitamin k"],
             "answer": "C"
         },
         {
