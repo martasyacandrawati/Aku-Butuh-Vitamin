@@ -150,9 +150,40 @@ elif selection == "Kekurangan dan Kelebihan":
 elif selection == "Fakta Menarik":
     st.write("Ini konten untuk Mengetahui Fakta Menarik Vitamin.")
 elif selection == "Quiz":
-   st.write("Ini konten untuk quiz.")
+    st.title("Quiz Seru tentang Pengetahuan Umum!")
+    st.markdown("---")
+
+    questions = [
+        {
+            "question": "Apa ibu kota Indonesia?",
+            "options": ["A. Bandung", "B. Surabaya", "C. Jakarta", "D. Medan"],
+            "answer": "C"
+        },
+        {
+            "question": "Berapakah hasil dari 2 + 3?",
+            "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+            "answer": "B"
+        }
+    ]
+
+    score = 0
+    user_answers = {}
+
+    for idx, q in enumerate(questions):
+        st.subheader(f"Pertanyaan {idx+1}: {q['question']}")
+        user_choice = st.radio("Pilih jawaban:", q["options"], key=f"q{idx}")
+        user_answers[f"q{idx}"] = user_choice[0]  # Ambil huruf depan (A/B/C/D)
+        st.markdown("---")
+
+    if st.button("Lihat Skor"):
+        for idx, q in enumerate(questions):
+            if user_answers[f"q{idx}"] == q["answer"]:
+                score += 1
+        st.success(f"Skor akhir Anda: {score}/{len(questions)}")
+
+
 elif selection == "Tentang kami":
-    st.write("Ini konten tytg kami.")
+    st.write("Ini konten ttg kami.")
 
 page_bg_style = """
 <style>
