@@ -196,7 +196,7 @@ elif selection == "Quiz":
             if user_answers[f"q{idx}"] == q["answer"]:
                 score += 1
         st.success(f"Skor akhir Anda: {score}/{len(questions)}")
-elif selection == "Tentang kami":
+elif selection == "Tentang Kami":
     st.title("Aplikasi Ini Dibuat Dengan Tujuan :")
     st.markdown("---")
     st.write("💊. Membantu user untuk mengenali vitamin.")
