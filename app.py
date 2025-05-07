@@ -199,14 +199,14 @@ elif selection == "Quiz":
 elif selection == "Tentang Kami":
     st.title("Aplikasi Ini Dibuat Dengan Tujuan :")
     st.markdown("---")
-    st.write("💊. Membantu user untuk mengenali vitamin.")
-    st.write("🥗. Membantu User untuk mengetahui tentang berbagai macam jenis vitamin.")
-    st.write("🥩. Membantu user untuk mengetahui kekurangan dan kelebihan vitamin.")
-    st.write("🍌. Membantu user untuk mengetahui bahan pangan apa saja yang mengandung vitamin yang dibutuhkan.")
-    st.write("🍎. Memberikan penjelasan kepada user agar user mengetahui pentingnya mengkonsumsi vitamin.")
-    st.write("🫛. Memberikan pengetahuan tentang fakta unik dari vitamin.")
-    st.write("🍇. Memberikan quiz kepada user untuk mengetahui pemahaman user mengenai Vitamin.")
-    st.write("🥜. Aplikasi ini dibuat sebagai tugas akhir mata kuliah Logika Dan Pemograman Komputer.")
+    st.write("💊 Membantu user untuk mengenali vitamin.")
+    st.write("🥗 Membantu User untuk mengetahui tentang berbagai macam jenis vitamin.")
+    st.write("🥩 Membantu user untuk mengetahui kekurangan dan kelebihan vitamin.")
+    st.write("🍌 Membantu user untuk mengetahui bahan pangan apa saja yang mengandung vitamin yang dibutuhkan.")
+    st.write("🍎 Memberikan penjelasan kepada user agar user mengetahui pentingnya mengkonsumsi vitamin.")
+    st.write("🫛 Memberikan pengetahuan tentang fakta unik dari vitamin.")
+    st.write("🍇 Memberikan quiz kepada user untuk mengetahui pemahaman user mengenai Vitamin.")
+    st.write("🥜 Aplikasi ini dibuat sebagai tugas akhir mata kuliah Logika Dan Pemograman Komputer.")
 
 page_bg_style = """
 <style>
