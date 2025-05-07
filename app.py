@@ -16,11 +16,10 @@ if selection == "Kenali Vitamin":
     st.write("Penemu vitamin adalah Casimir Funk, seorang ahli biokimia 🧪👨🏼‍🔬yang menemukan dan memberikan nama vitamin pada zat-zat penting yang dibutuhkan tubuh untuk kesehatan. Ia juga dikenal sebagai Bapak Terapi Vitamin karena karyanya yang penting dalam memahami dan mengobati kekurangan vitamin. Funk mempopulerkan istilah ✨vitamin✨(Vital Amine) untuk menyebut zat-zat penting yang dibutuhkan tubuh, yang kemudian disingkat menjadi vitamin.")
     st.markdown("---")
     st.subheader("Vitamin Itu Apa?")
-    st.markdown("---")
     st.write("kita sudah tidak asing dengan vitamin, tetapi masih banyak orang yang jarang mengkonsumsi vitamin. Sebenarnya vitamin itu apa sih?")
     st.write("Vitamin adalah senyawa organik mikronutrien penting yang dibutuhkan tubuh dalam jumlah kecil untuk menjalankan berbagai fungsi biokimiawi. Vitamin tidak dapat disintesis oleh tubuh sendiri dan umumnya harus diperoleh dari makanan.") 
-    st.subheader("Apa Saja Macam Vitamin?")
     st.markdown("---")
+    st.subheader("Apa Saja Macam Vitamin?")
     st.write("Vitamin dibagi menjadi dua kelompok utama yakni vitamin larut lemak (A, D, E, K) dan vitamin larut air (C dan B kompleks).")
 elif selection == "Fungsi dan Sumber Vitamin":
     st.title("Sebenarnya, Apa Saja Fungsi dan Sumber Dari Vitamin?")
