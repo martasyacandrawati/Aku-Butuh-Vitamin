@@ -163,12 +163,12 @@ elif selection == "Quiz":
             "question": "Berapakah hasil dari 2 + 3?",
             "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
             "answer": "B"
-        }
+        },
         {
             "question": "Berapakah hasil dari 2 + 3?",
             "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
             "answer": "B"
-        }
+        },
         {
             "question": "Berapakah hasil dari 2 + 3?",
             "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
