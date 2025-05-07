@@ -183,18 +183,35 @@ elif selection == "Quiz":
     ]
     score = 0
     user_answers = {}
-    
+
     for idx, q in enumerate(questions):
-    st.subheader(f"Pertanyaan {idx+1}: {q['question']}")
-    user_choice = st.radio("Pilih jawaban:", q["options"], key=f"q{idx}")
-    user_answers[f"q{idx}"] = user_choice[0]  # Ambil huruf depan (A/B/C/D)
-    st.markdown("---")
-    
+        st.subheader(f"Pertanyaan {idx+1}: {q['question']}")
+        if "image" in q:
+            st.image(q["image"], width=300)
+        user_choice = st.radio("Pilih jawaban:", q["options"], key=f"q{idx}")
+        user_answers[f"q{idx}"] = user_choice[0]
+        st.markdown("---")
+
     if st.button("Lihat Skor"):
-    for idx, q in enumerate(questions):
-        if user_answers[f"q{idx}"] == q["answer"]:
-            score += 1
-    st.success(f"Skor akhir Anda: {score}/{len(questions)}")
+        for idx, q in enumerate(questions):
+            if user_answers[f"q{idx}"] == q["answer"]:
+                score += 1
+        st.success(f"Skor akhir Anda: {score}/{len(questions)}")
+
+        if score == 0:
+            st.write("☠ Wah, kamu ngisi kuisnya sambil merem ya? ☠")
+        elif score == 1:
+            st.write("🤡 Hmm... minimal kamu tau satu hal, itu pun mungkin kebetulan... 🤡")
+        elif score == 2:
+            st.write("🤯 Lumayan, udah mulai keliatan bibit-bibit paham vitamin. 🤯")
+        elif score == 3:
+            st.write("👏🏻 Bagus! Setengah jalan menuju jadi master vitamin! 👏🏻")
+        elif score == 4:
+            st.write("😻 Wow! Dikit lagi jadi ahli gizi nih! 😻")
+        elif score == 5:
+            st.write("🏆 PERFECT! Kamu emang panutan hidup sehat! 🏆")
+            st.balloons()
+
    
 elif selection == "Tentang Kami":
     st.title("Aplikasi Ini Dibuat Dengan Tujuan :")
