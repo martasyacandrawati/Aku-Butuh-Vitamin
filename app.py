@@ -209,7 +209,7 @@ elif selection == "Kekurangan dan Kelebihan":
     st.markdown("---")
     st.subheader("Kesimpulannya yang sedang-sedang aja ya teman-teman! jangan sampai kekurangan ataupun kelebihan.")
 elif selection == "Fakta Menarik":
-    st.header("Kalian tau ga sih? Vitamin juga punya fakta menarik loh! yuk, kita cari tau bersama!")
+    st.header("Kalian tau ga sih? Vitamin juga punya fakta menarik loh! Yuk, kita cari tau bersama!")
     st.markdown("---")
     st.write("Vitamin tidak dapat dihasilkan oleh tubuh karena mereka adalah senyawa organik esensial yang dibutuhkan untuk berbagai fungsi tubuh, namun tubuh tidak memiliki kemampuan untuk memproduksinya secara alami.")
     st.write("Vitamin yang dapat diproduksi oleh tubuh antara lain adalah vitamin D dan vitamin K. Tubuh dapat memproduksi vitamin D ketika kulit terpapar sinar matahari☀, dan vitamin K diproduksi oleh bakteri di usus besar🦠. Vitamin D berperan penting dalam kesehatan tulang dan sistem kekebalan tubuh🩻, sedangkan vitamin K berperan dalam pembekuan darah🧛🏻‍♀🩸.")
