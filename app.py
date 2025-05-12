@@ -1,7 +1,7 @@
 import streamlit as st
 import math
 
-st.set_page_config(page_title="Buah dan Vitamin Didalam-nya", layout="centered")
+st.set_page_config(page_title="Vitamin", layout="centered")
 
 # Sidebar for input
 with st.sidebar:
