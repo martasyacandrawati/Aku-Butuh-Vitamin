@@ -338,7 +338,11 @@ hr {
 """
 st.markdown(page_bg_style, unsafe_allow_html=True)
 
-st.markdown("---")
-st.caption("POLITEKNIK AKA BOGOR")
-st.caption("👩🏻‍🔬Prodi Penjaminan Mutu Industri Pangan🧑🏻‍🔬")
-st.caption("📘 Made for educational purposes.")
+st.markdown("""
+<div style="text-align: center;">
+    <h4>POLITEKNIK AKA BOGOR</h4>
+    <p>👩🏻‍🔬 <strong>Prodi Penjaminan Mutu Industri Pangan</strong> 🧑🏻‍🔬</p>
+    <p>📘 <em>Made for educational purposes.</em></p>
+</div>
+""", unsafe_allow_html=True)
+
