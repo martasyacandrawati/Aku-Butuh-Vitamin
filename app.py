@@ -339,10 +339,9 @@ hr {
 st.markdown(page_bg_style, unsafe_allow_html=True)
 
 st.markdown("""
-<div style="text-align: center;">
-    <h4>POLITEKNIK AKA BOGOR</h4>
-    <p>👩🏻‍🔬 <strong>Prodi Penjaminan Mutu Industri Pangan</strong> 🧑🏻‍🔬</p>
-    <p>📘 <em>Made for educational purposes.</em></p>
+<div style="text-align: center; line-height: 1.4; margin-top: -20px;">
+    <h4 style="margin-bottom: 5px;">POLITEKNIK AKA BOGOR</h4>
+    <p style="margin: 0;">👩🏻‍🔬 <strong>Prodi Penjaminan Mutu Industri Pangan</strong> 🧑🏻‍🔬</p>
+    <p style="margin: 0;">📘 <em>Made for educational purposes.</em></p>
 </div>
 """, unsafe_allow_html=True)
-
