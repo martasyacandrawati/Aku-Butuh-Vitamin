@@ -148,7 +148,7 @@ elif selection == "Fungsi dan Sumber Vitamin":
     st.markdown("---")
     st.subheader("Jadi, apakah kamu sudah tau vitamin apa yang kamu butuhkan?")
 elif selection == "Kekurangan dan Kelebihan":
-    st.title("Ternyata kalo kita kekurangan atau kelebihan vitamin ada dampak buruknya loh!")
+    st.title("Ternyata kekurangan atau kelebihan vitamin ada dampak buruknya loh!")
     st.markdown("---")
     st.subheader("yuk kita lihat, dampak buruk apa aja sih jika seseorang kekurangan atau kelebihan vitamin?")
     st.markdown("---")
@@ -206,6 +206,8 @@ elif selection == "Kekurangan dan Kelebihan":
     st.header("VITAMIN K")
     st.write("Kekurangan vitamin K dapat menyebabkan masalah dalam pembekuan darah.")
     st.write("Kelebihan vitamin K dapat menyebabkan efek samping seperti anemia hemolitik dan penyakit kuning.")
+    st.markdown("---")
+    st.subheader("Kesimpulannya yang sedang-sedang aja ya teman-teman! jangan sampai kekurangan ataupun kelebihan.")
 elif selection == "Fakta Menarik":
     st.header("Kalian tau ga sih? Vitamin juga punya fakta menarik loh! yuk, kita cari tau bersama!")
     st.markdown("---")
