@@ -340,7 +340,7 @@ st.markdown(page_bg_style, unsafe_allow_html=True)
 
 st.markdown("""
 <div style="text-align: center; line-height: 1.4; margin-top: -20px;">
-    <p style="margin: 0;">👩🏻‍🔬 <strong>Prodi Penjaminan Mutu Industri Pangan</strong> 🧑🏻‍🔬</p>
-    <p style="margin: 0;">📘 <em>Made for educational purposes.</em></p>
+    <p style="margin: 0;"> <strong>POLITEKNIK AKA BOGOR</strong> </p>
+    <p style="margin: 0;"> <em>Prodi Penjaminan Mutu Industri Pangan</em></p>
 </div>
 """, unsafe_allow_html=True)
