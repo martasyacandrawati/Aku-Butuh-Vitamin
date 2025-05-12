@@ -298,7 +298,7 @@ page_bg_style = """
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.4); /* 40% opacity */
+    background-color: rgba(255, 255, 255, 0.4); /* 30% opacity */
     background-blend-mode: overlay; /* blend warna + gambar */
 }
 
