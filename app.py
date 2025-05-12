@@ -339,4 +339,6 @@ hr {
 st.markdown(page_bg_style, unsafe_allow_html=True)
 
 st.markdown("---")
-st.caption("📘 Made with Streamlit for educational purposes.")
+st.caption("POLITEKNIK AKA BOGOR")
+st.caption("👩🏻‍🔬Prodi Penjaminan Mutu Industri Pangan🧑🏻‍🔬")
+st.caption("📘 Made for educational purposes.")
