@@ -345,3 +345,5 @@ st.markdown("""
     <p style="margin: 0;"> <em>Prodi Penjaminan Mutu Industri Pangan</em></p>
 </div>
 """, unsafe_allow_html=True)
+
+
