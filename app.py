@@ -173,6 +173,7 @@ elif selection == "Kekurangan dan Kelebihan":
     st.write("Kelebihan vitamin B3 jarang terjadi, namun dapat menyebabkan kemerahan pada wajah, serangan asam urat, dan kadang-kadang hiperglikemia.")
     st.markdown("---")
     st.header("VITAMIN B5")
+    st.write("Kekurangan vitamin B5 dapat menyebabkan berbagai masalah kesehatan, seperti kelelahan, sakit kepala, insomnia, depresi, mudah tersinggung, sakit perut, infeksi saluran pernapasan atas, rambut rontok, serta sering mengalami nyeri otot di area kaki atau lengan. Selain itu, kekurangan vitamin B5 dapat menyebabkan gangguan pada otak, seperti neurodegenerasi dan demensia.")
     st.write("Mengkonsumsi vitamin B5 secara berlebihan. Gangguan kulit: Dermatitis kontak yang ditandai dengan gatal dan kemerahan pada kulit")
     st.markdown("---")
     st.header("VITAMIN B6")
