@@ -393,7 +393,7 @@ color: #FAFAFA !important;
 
 div[role="listbox"] {
 background-color: #D291BC !important;
-color: #FAFAFA !important;
+color: #D291BC !important;
 }
 </style>
 """
