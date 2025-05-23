@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#C94EFD"           # Warna aksen (ungu muda cerah)
+backgroundColor = "#F5F2F9"        # Warna latar utama (putih keunguan lembut)
+secondaryBackgroundColor = "#E8DFF6" # Warna sidebar dan dropdown (ungu pastel)
+textColor = "#000000"              # Warna teks utama (hitam)
+font = "sans serif"
