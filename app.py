@@ -359,6 +359,17 @@ hr {
     margin: 1rem 0 !important;
     opacity: 1 !important;
 }
+
+/* Ubah latar belakang dan warna teks dari selectbox */
+div[data-baseweb="select"] > div {
+background-color: #D291BC; /* Sesuaikan dengan warna sidebar */
+color: #FAFAFA; /* Warna teks */
+}
+/* Ubah latar belakang dropdown saat dibuka */
+div[role="listbox"] {
+background-color: #262730;
+color: #FAFAFA;
+}
 </style>
 """
 st.markdown(page_bg_style, unsafe_allow_html=True)
