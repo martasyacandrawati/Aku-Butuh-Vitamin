@@ -392,7 +392,7 @@ color: #FAFAFA; /* Warna teks */
 }
 /* Ubah latar belakang dropdown saat dibuka */
 div[role="listbox"] {
-background-color: #D291BC;
+background-color: #D291BC !important;
 color: #FAFAFA;
 }
 </style>
