@@ -385,15 +385,15 @@ hr {
     opacity: 1 !important;
 }
 
-/* Ubah latar belakang dan warna teks dari selectbox */
+
 div[data-baseweb="select"] > div {
-background-color: #D291BC; /* Sesuaikan dengan warna sidebar */
-color: #FAFAFA; /* Warna teks */
+background-color: #D291BC !important; 
+color: #FAFAFA !important; 
 }
-/* Ubah latar belakang dropdown saat dibuka */
+
 div[role="listbox"] {
 background-color: #D291BC !important;
-color: #FAFAFA;
+color: #FAFAFA !important;
 }
 </style>
 """
