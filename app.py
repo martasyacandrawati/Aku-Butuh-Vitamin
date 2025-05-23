@@ -207,32 +207,32 @@ elif selection == "Kekurangan dan Kelebihan":
             st.write("Kekurangan vitamin B2 (riboflavin) dapat menyebabkan berbagai masalah kesehatan seperti anemia, gangguan kulit, hingga sakit kepala.")
             st.write("Kelebihan vitamin B2 biasanya tidak berbahaya, namun dapat menyebabkan urine berwarna kuning cerah atau gejala pencernaan ringan.")
             st.markdown("---")
-       elif  vitamin_b == "Vitamin B3 (Niasin)":
+        elif  vitamin_b == "Vitamin B3 (Niasin)":
             st.header("VITAMIN B3")
             st.write("Kekurangan vitamin B3 (niasin) dapat menyebabkan pelagra, kondisi yang ditandai dengan dermatitis, diare, dan demensia.")
             st.write("Kelebihan vitamin B3 jarang terjadi, namun dapat menyebabkan kemerahan pada wajah, serangan asam urat, dan kadang-kadang hiperglikemia.")
             st.markdown("---")
-       elif  vitamin_b == "Vitamin B5 (Asam Pantotenat)":
+        elif  vitamin_b == "Vitamin B5 (Asam Pantotenat)":
             st.header("VITAMIN B5")
             st.write("Kekurangan vitamin B5 dapat menyebabkan berbagai masalah kesehatan, seperti kelelahan, sakit kepala, insomnia, depresi, mudah tersinggung, sakit perut, infeksi saluran pernapasan atas, rambut rontok, serta sering mengalami nyeri otot di area kaki atau lengan. Selain itu, kekurangan vitamin B5 dapat menyebabkan gangguan pada otak, seperti neurodegenerasi dan demensia.")
             st.write("Mengkonsumsi vitamin B5 secara berlebihan. Gangguan kulit: Dermatitis kontak yang ditandai dengan gatal dan kemerahan pada kulit")
             st.markdown("---")
-       elif  vitamin_b == "Vitamin B6 (Piridoksin)":
+        elif  vitamin_b == "Vitamin B6 (Piridoksin)":
             st.header("VITAMIN B6")
             st.write("Kekurangan vitamin B6 dapat menyebabkan anemia, ruam kulit, gangguan saraf, dan perubahan mental.")
             st.write("Kelebihan vitamin B6 (dosis tinggi) dapat menyebabkan neuropati sensorik, yang ditandai dengan nyeri dan mati rasa di tangan dan kaki")
             st.markdown("---")
-       elif  vitamin_b == "Vitamin B7 (Biotin)":
+        elif  vitamin_b == "Vitamin B7 (Biotin)":
             st.header("VITAMIN B7")
             st.write("Kekurangan vitamin B7 (biotin) dapat menyebabkan rambut rontok, kuku rapuh, ruam kulit, dan kelelahan.")
             st.write("Kelebihan vitamin B7 jarang terjadi karena larut dalam air dan diekskresikan melalui urine. Namun, asupan berlebihan bisa mengganggu beberapa pemeriksaan medis.")
             st.markdown("---")
-       elif  vitamin_b == "Vitamin B9 (Asam Folat)":
+        elif  vitamin_b == "Vitamin B9 (Asam Folat)":
             st.header("VITAMIN B9")
             st.write("Kekurangan vitamin B9 (asam folat) dapat menyebabkan anemia megaloblastik, kelelahan, sariawan, dan masalah neurologis.")
             st.write("Kelebihan asam folat dapat menyebabkan mual, ruam kulit, dan peningkatan resistensi insulin, terutama pada anak-anak.")
             st.markdown("---")
-       elif  vitamin_b == "Vitamin B12 (Kobalamin)":
+        elif  vitamin_b == "Vitamin B12 (Kobalamin)":
             st.header("VITAMIN B12")
             st.write("Kekurangan vitamin B12 dapat menyebabkan anemia, kelelahan, dan masalah saraf")
             st.write("kelebihan vitamin B12 biasanya tidak berbahaya, namun dapat menyebabkan efek samping seperti mual dan ruam kulit.")
